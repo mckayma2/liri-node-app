@@ -1,8 +1,9 @@
 
 var keys = require ("./keys.js");
-
 var Spotify = require('node-spotify-api');
 
+//sudo i would pust an if statement to determin which api to use based on the user imput 
+// process.argv[2] would be api and process.argv[3] querry
 var userImput = process.argv[2];
 
 
@@ -23,3 +24,4 @@ else{
 console.log(response.artists);
 };
 });
+
