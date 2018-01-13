@@ -10,5 +10,8 @@
     },
     "scripts": {
         "start": "node index.js"
+    },
+    "dependencies": {
+        "node-spotify-api": "^1.0.7"
     }
 }
