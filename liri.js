@@ -1,5 +1,5 @@
 
-
+var keys = require ("./keys.js");
 
 var Spotify = require('node-spotify-api');
 
@@ -7,8 +7,8 @@ var userImput = process.argv[2];
 
 
 var spotify = new Spotify({
-  id: '2a974e81e3694af08ad4d0fb94a021f9',
-  secret: '2b8265c58b2149bd9d8b58b2a629f2e6'
+  id: keys.spotifyKey.clientId,
+  secret: keys.spotifyKey.clientSecret
 });
  
 
